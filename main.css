@@ -1,0 +1,21 @@
+.playlists-tab {
+    background-image: url('images/playlist.png') !important;
+}
+
+.searches-tab {
+    background-image:url('images/search.png') !important;
+}
+
+.empty {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.playlist-header {
+  font-style: italic;
+}
+
+.player {
+    background-color: #f00;
+}
