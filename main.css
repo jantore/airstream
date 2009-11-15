@@ -7,15 +7,67 @@
 }
 
 .empty {
-  text-align: center;
-  font-style: italic;
-  margin-bottom: 8px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 8px;
 }
 
 .playlist-header {
-  font-style: italic;
+    font-style: italic;
 }
 
 .player {
-    background-color: #f00;
+    background-color: #dfe8f6;
 }
+
+.player-time {
+    /* from .x-tab-strip-active */
+    font-family: Tahoma, Arial, "helvetica";
+    /* font-weight: 700; */
+    color: #15428b;
+    text-shadow: #ffffff 1px 1px 0px;
+    font-size: 10px;
+    text-align: right;
+    padding: 0 4px 0 4px;
+}
+
+.player-current-album {
+    margin: 4px 0 0 4px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #99bbe8;
+}
+
+.player-current-album a {
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+.player-current-track {
+    float: left;
+    left: 36px;
+    padding: 6px 0 0 4px;
+}
+
+.player-current-artist {
+    font-family: Tahoma, Arial, "helvetica";
+    color: #15428b;
+    font-size: 11px;
+    padding: 0 0 2px 0;
+}
+
+.player-current-artist a {
+    color: #15428b;
+    text-decoration: none;
+}
+
+.player-current-title {
+    font-family: Tahoma, Arial, "helvetica";
+    color: #15428b;
+    font-size: 12px;
+    font-weight: bold;
+    /* padding: 2px 0 2px 4px; */
+}
+
