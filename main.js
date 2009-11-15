@@ -6,9 +6,10 @@ Ext.onReady(function() {
 	items  : [
 	    new SearchPanel(),
 	    new ListPanel({
-        items : [
-            new FrontPanel()
-        ]
+		id : 'list-panel',
+		items : [
+		    new FrontPanel()
+		]
 	    }),
 	    new WestPanel({
 		items : [
