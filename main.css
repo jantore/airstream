@@ -71,3 +71,10 @@
     /* padding: 2px 0 2px 4px; */
 }
 
+.song-grid-current td {
+    font-weight: bold !important;
+}
+
+.queue-grid-old td {
+    color: #999 !important;
+}
