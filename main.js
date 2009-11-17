@@ -8,7 +8,7 @@ Ext.onReady(function() {
             new ListPanel({
                 id : 'list-panel',
                 items : [
-                    new FrontPanel()
+                    new QueueGrid({ id : 'queue-grid' })
                 ]
             }),
             new WestPanel({
