@@ -51,7 +51,7 @@ sub search : Local {
                 # TODO Fix album field.
                 album    => '',
                 # TODO Fix file path.
-                url      => $c->uri_for(sprintf("/file%s", $_->file))->as_string,
+                url      => sprintf("%s/%s", $c->config->{'data_path'}, $_->file),
             }
         } $rs->all
     ]
